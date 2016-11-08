@@ -1,0 +1,29 @@
+body {
+    padding-bottom: 50px;
+}
+
+.hover {
+    color: #337ab7;
+    position: absolute;
+    margin-left: 5px;
+    top: 33%;
+}
+
+.nama {
+    position: relative;
+    margin: auto;
+}
+
+.aksi {
+    min-width: 60px;
+    max-width: 80px;
+}
+
+.table > thead > tr > th, .table > tbody > tr > td {
+    vertical-align: middle;
+}
+
+a:hover
+{
+    text-decoration: none;
+}
