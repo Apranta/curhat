@@ -18,7 +18,7 @@
 
 		exit(0);
 	}
-
+	header("Access-Control-Allow-Origin:*");
 	// $mysqli=new mysqli("localhost","root","", "puding_db");
 	$mysqli=new mysqli("br-cdbr-azure-south-a.cloudapp.net","b3492f5d51660e","da35d512", "carter");
 	//http://stackoverflow.com/questions/15485354/angular-http-post-to-php-and-undefined
