@@ -33,8 +33,8 @@
                 </tr>
               </thead>
               <tbody>
-              <?php mysql_connect("localhost","root","") or die("mysql_error");
-                    mysql_select_db("puding_db"); 
+              <?php mysql_connect("br-cdbr-azure-south-a.cloudapp.net","b3492f5d51660e","da35d512") or die("mysql_error");
+                    mysql_select_db("carter"); 
                     $hasil = mysql_query("SELECT * FROM curhat");
                     while($data = mysql_fetch_array($hasil)){
                     ?>
